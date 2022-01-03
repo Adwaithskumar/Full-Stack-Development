@@ -1,0 +1,120 @@
+body {
+    background:  #e9edef;
+}
+
+label {
+    font-size: 85px;
+    font-weight: 900;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 25px;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    float: right;
+}
+
+h6{
+    color: #e9edef;
+}
+.hss{
+    text-align: right;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+    margin: auto;
+  align-items: center;
+}
+
+
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.col-2 {width: 100%;}
+
+.col-3 {width: 97%;}
+
+.col-4 {width: 33.33%;}
+
+
+
+
+div.box {
+    text-align: center;
+    margin: 15px;
+    
+    background-color: white;
+    box-shadow: 5px 0px 7px 2px rgba(0,0,0,0.15);
+}
+
+div.br {
+    border-radius: 7px ;
+    box-shadow: 5px 0px 7px 2px rgba(0,0,0,0.15);
+}
+
+.pd{
+    padding: 24px;
+}
+
+hr{
+    background: lightgrey;
+    padding: 5px;
+    margin-bottom: 2opx;
+}
+
+.hrr hr{
+    border-radius: 7px;
+}
+
+div.box1{
+    height: auto;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 2px 0px 7px 1px rgba(0,0,0,.15);
+}
+
+div.box2{
+    background-color: #e9edef;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div.fcolor h3 {
+    border-radius: 7px 7px 0px 0px;
+    padding: 25px;
+    background-color: #7dd0ed;
+    font-size: 40px;
+    color: #fff;
+
+}
+
+
+@media screen and (max-width: 680px) {
+
+    .col-1 {width: 100%;}
+    .col-2 {width: 100%;}
+
+}
